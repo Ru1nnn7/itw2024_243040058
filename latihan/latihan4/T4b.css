@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font: 16px/28px arial, sans-serif;
+  background-color: white;
+  color: beige;
+  background-image: url(fancy.webp);
+}
+
+h1 {
+  font-family: "comic sans ms";
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: burlywood;
+}
+
+.header {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.header .judul {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.header ul Li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.header a {
+  text-decoration: none;
+  color: beige;
+  padding: 3px;
+}
+
+.header a:hover {
+  background-color: gold;
+  color: white;
+}
+
+.hero {
+  height: 280px;
+  background-image: url(kopi.jpg);
+  background-size: cover;
+  background-position: 0px -50px;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.content .penulis {
+  font-size: 11px;
+  margin-top: -5px;
+}
+
+.content .penulis a {
+  color: black;
+  text-decoration: none;
+}
+
+.content p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.footer {
+  background-color: saddlebrown;
+  padding: 10px;
+}
+
+.footer .copy {
+  color: beige;
+  text-align: center;
+  font-family: "comic sans ms";
+  font-size: 12px;
+}
+
+.judul1 {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.judul2 {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.judul3 {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.source b:hover {
+  color: beige;
+  background-color: gold;
+}
