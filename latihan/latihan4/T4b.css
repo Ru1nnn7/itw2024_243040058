@@ -7,7 +7,7 @@ body {
   font: 16px/28px arial, sans-serif;
   background-color: white;
   color: beige;
-  background-image: url(fancy.webp);
+  background-image: url(pipes.webp);
   text-align: justify;
 }
 
@@ -112,4 +112,9 @@ h1 {
 .source b:hover {
   color: beige;
   background-color: gold;
+}
+
+.kopikedua {
+  padding-bottom: 30px;
+  padding-top: 15px;
 }
